@@ -1,0 +1,11 @@
+
+<div>
+    Enter First Number:<input type="string" [(ngModel)]="a" #ctrl="ngModel" required>
+    Enter Second Number:<input type="string"  [(ngModel)]="b" required>
+      Result:{{result}}
+      <br>
+<button type="button" (click) = "divide()"> Divide</button>
+<br><br>
+<button type="button" (click) = "clear()"> Clear</button>
+
+</div>
