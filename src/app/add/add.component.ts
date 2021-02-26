@@ -15,7 +15,7 @@ export class AddComponent implements OnInit {
     return this.result = Number.parseInt(this.a.toString()) + Number.parseInt(this.b.toString())
   }
   clear(){
-    return this.result= 0
+    return this.result=this.a=this.b=0
   }
  ngOnInit(): void {
   }

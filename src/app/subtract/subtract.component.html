@@ -1,10 +1,13 @@
 <div>
     Enter First Number:<input type="string" [(ngModel)]="a" #ctrl="ngModel" required>
+<br>
     Enter Second Number:<input type="string"  [(ngModel)]="b" required>
+<br>
+
       Result:{{result}}
       <br>
 <button type="button" (click) = "subtract()"> Subtract</button>
-<br><br>
+<br>
 <button type="button" (click) = "clear()"> Clear</button>
 
 </div>
